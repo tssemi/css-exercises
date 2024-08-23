@@ -17,12 +17,6 @@ body {
   padding: 15px 15px;
 }
 
-.footer {
-  height: 72px;
-  background: #eee;
-  color: darkmagenta;
-}
-
 .content {
   flex: 1;
   display: flex;
@@ -63,6 +57,14 @@ a {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   min-width: 300px;
-  max-height: 400px;
   flex: 0;
+}
+
+.footer {
+  height: 72px;
+  background: #eee;
+  color: darkmagenta;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 25px 0;
 }
